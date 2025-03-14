@@ -8,6 +8,6 @@ namespace IceTaskThree
 {
     interface ICalculateArea
     {
-       void CalculateArea();
+       double CalculateArea();
     }
 }

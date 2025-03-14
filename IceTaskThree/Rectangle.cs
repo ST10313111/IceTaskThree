@@ -16,16 +16,17 @@ namespace IceTaskThree
             Length = length;
         }
 
-        public void CalculateArea()
+        public double CalculateArea()
         {
             double calculatedR = Width * Length;
-           
+            return calculatedR;
+
         }
         public override void Display()
         {
             base.Display();
-            Console.WriteLine($"Width: {Width} \n Length: {Length} \n" +
-                $"Calculated Area: {CalculateArea}");
+            Console.WriteLine($"Width: {Width}\nLength: {Length} \n" +
+                $"Calculated Area: {CalculateArea()}");
         }
 
     }
